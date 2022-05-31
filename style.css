@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url(img_proyecto/fondo_pantalla_main.png);
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+figure {
+  display: flex;
+  align-items: flex-start;
+  height: 110px;
+  width: 50%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.main_nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.main_nav__item a {
+  margin-inline: 20px;
+  font-size: 20px;
+  color: #555673;
+  text-decoration: none;
+}
+
+.main_nav__item a:hover {
+  color: #f16e91;
+}
+
+.main_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 636px;
+  width: 50%;
+  margin-left: 3%;
+}
+
+.main_text__title {
+  color: #555673;
+  font-size: 51.3px;
+  margin-bottom: 10px;
+  /* font-family: ; */
+}
+
+.main_text__subtitle {
+  color: #555673;
+  font-size: 20px;
+  margin-bottom: 80px;
+  width: 50%;
+  /* font-family: ; */
+}
+
+.button_show_Atlethes {
+  background: #f16e91;
+  font-size: 19.4px;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionAtlethes {
+  background-image: url(img_proyecto/Fondo_pantalla2.png);
+}
+
+.section_title_atlethes,
+.nav_title_History {
+  padding: 50px 0;
+}
+
+.title_atlethes {
+  color: #555673;
+  font-size: 51.3px;
+  margin-left: 3%;
+  /* font-family: ; */
+}
+
+.aside_filter_order {
+  height: 50px;
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #555673;
+}
+
+input {
+  height: 30px;
+  width: 16%;
+  margin: 10px;
+  font-size: 19.4px;
+  border: none;
+  color: #555673;
+}
+
+input:focus {
+  outline: 3px solid #75bfb8;
+}
+
+input::placeholder {
+  color: #555673;
+  font-size: 19.4px;
+}
+
+.show_athletes {
+  box-sizing: border-box;
+  height: auto;
+  width: 100vw;
+  padding: 2% 15% 5% 15%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  color: #f16e91;
+}
+
+.athlete_Container {
+  height: auto;
+  width: 21vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button_show_Atlethe {
+  background: #75bfb8;
+  font-size: 19.4px;
+  color: #555673;
+  padding: 5px 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.sectionStatistics {
+  background-image: url(img_proyecto/Fondo_estadisticas.png);
+}
+
+.section_title_Statistics {
+  width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title_Statistics {
+  color: #555673;
+  font-size: 51.3px;
+  margin-top: 5%;
+  margin-right: 3%;
+  /* font-family: ; */
+}
+
+.show_Statistics {
+  box-sizing: border-box;
+  height: auto;
+  width: 100vw;
+  padding: 2% 15% 5% 15%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px 20px;
+  color: #555673;
+}
+
+.medals_Container {
+  height: 18vw;
+  width: 12vw;
+  padding: 3% 3% 3% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #f2eae4;
+}
+
+p,
+h3 {
+  padding: 2% 0% 2% 0%;
+}
+
+.sectionHistory {
+  background-image: url(img_proyecto/fondo_historia.png);
+}
+
+.title_History {
+  color: #f16e91;
+  font-size: 51.3px;
+  margin-left: 3%;
+}
+
+.img_history {
+  height: 20vw;
+  width: auto;
+  border-radius: 4vw;
+}
+
+.show_History {
+  box-sizing: border-box;
+  height: auto;
+  width: 100vw;
+  padding: 2% 10% 5% 10%;
+  display: flex;
+  justify-content: center;
+  gap: 10px 20px;
+  color: #f2eae4;
+  font-size: 25px;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #555673;
+  padding-top: 30px;
+  margin: 1%;
+}
