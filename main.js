@@ -47,7 +47,7 @@ const uniqueArrayTeams = teams.filter(uniqueArray);
 
 // console.log("PRUEBA", getMedals(rhythmicGymnastics, uniqueArrayTeams));
 
-console.log(teams);
+// console.log(teams);
 const teamAthletesSelector = (uniqueArrayTeams) => {
   return uniqueArrayTeams
     .map((currentTeamOption) => `<option>${currentTeamOption}</option>`)
