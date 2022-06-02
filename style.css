@@ -153,6 +153,12 @@ input::placeholder {
   margin-bottom: 20px;
 }
 
+.imgAthlete {
+  height: 19vw;
+  width: auto;
+  border-radius: 100%;
+}
+
 .button_show_Atlethe {
   background: #75bfb8;
   font-size: 19.4px;

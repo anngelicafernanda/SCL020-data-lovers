@@ -267,6 +267,7 @@ export default {
       age: 23,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Silver",
+      img: "https://upload.wikimedia.org/wikipedia/commons/3/38/Sandra_Aguilar_2013_Kiev.PNG",
     },
     {
       name: "Sri Wahyuni Agustiani",
@@ -1851,6 +1852,7 @@ export default {
       age: 18,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Gold",
+      img: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vera_Biryukova_MDK_asv2021-08.jpg",
     },
     {
       name: "Emma Stina Blackstenius",
@@ -1899,6 +1901,7 @@ export default {
       age: 22,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Gold",
+      img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Anastasiya_Bliznyuk_%28RUS%29_2016.jpg",
     },
     {
       name: "Pernille Blume",
@@ -6771,6 +6774,7 @@ export default {
       age: 22,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Silver",
+      img: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Artemi_Gavezou_2013_Kiev.PNG",
     },
     {
       name: "Yuliya Petrovna Gavrilova",
@@ -9831,6 +9835,7 @@ export default {
       age: 25,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Bronze",
+      img: "http://d2a3o6pzho379u.cloudfront.net/121644.jpg",
     },
     {
       name: "Sergey Igorevich Kamensky",
@@ -9999,6 +10004,7 @@ export default {
       age: 20,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Bronze",
+      img: "http://d2a3o6pzho379u.cloudfront.net/129387.jpg",
     },
     {
       name: "Shaun Keeling",
@@ -12207,6 +12213,7 @@ export default {
       age: 21,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Silver",
+      img: "https://upload.wikimedia.org/wikipedia/commons/7/76/Elena_L%C3%B3pez_2013_Kiev.PNG",
     },
     {
       name: "Juan Martn Lpez",
@@ -12651,6 +12658,7 @@ export default {
       age: 25,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Bronze",
+      img: "http://d2a3o6pzho379u.cloudfront.net/121643.jpg",
     },
     {
       name: "James Magnussen",
@@ -12759,6 +12767,7 @@ export default {
       age: 25,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Gold",
+      img: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Anastasia_Maksimova_%28RUS%29_2016.jpg",
     },
     {
       name: "Hedaya Ahmad Malak Wahba",
@@ -14211,6 +14220,7 @@ export default {
       age: 21,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Silver",
+      img: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lourdes_Mohedano_2013_Kiev.PNG",
     },
     {
       name: "Kayla Moleschi",
@@ -14835,6 +14845,7 @@ export default {
       age: 22,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Bronze",
+      img: "http://d2a3o6pzho379u.cloudfront.net/121649.jpg",
     },
     {
       name: "Dilshod Nazarov",
@@ -16971,6 +16982,7 @@ export default {
       age: 24,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Silver",
+      img: "https://upload.wikimedia.org/wikipedia/commons/1/14/Alejandra_Quereda_2013_Kiev_02a.jpg",
     },
     {
       name: "Laura Quevedo Caizares",
@@ -20931,6 +20943,7 @@ export default {
       age: 19,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Gold",
+      img: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Anastasia_Tatareva.jpg",
     },
     {
       name: "Diana Lurena Taurasi",
@@ -21279,6 +21292,7 @@ export default {
       age: 21,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Bronze",
+      img: "https://static.bnr.bg/gallery/cr/c0c05fe79db1ff24ad214fb4071d64dd.jpg",
     },
     {
       name: "Tamirat Tola Abera",
@@ -21315,6 +21329,7 @@ export default {
       age: 18,
       event: "Rhythmic Gymnastics Women's Group",
       medal: "Gold",
+      img: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mariya_Tolkachova_%28RUS%29.jpg",
     },
     {
       name: "Sergiu Toma",
