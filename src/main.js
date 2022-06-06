@@ -27,6 +27,7 @@ const showAthletes = (rhythmicGymnastics) => {
     )
     .join("");
 };
+console.log("🚀 ~ showAthletes", showAthletes);
 
 const rhythmicGymnastics = getRhythmicGymnastics(data.athletes);
 console.log("🚀 ~ rhythmicGymnastics", rhythmicGymnastics);
