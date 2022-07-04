@@ -7,33 +7,71 @@ import {
   getMedals,
 } from "./data.js"; // traigo la funcion desde el archivo data.js
 
-const showAthletes = (rhythmicGymnastics) => {
-  return rhythmicGymnastics
-    .map(
-      (currentAthlete) =>
-        `<div class="athlete_Container">
-        <img class="imgAthlete" src=${currentAthlete.img} alt="atleta" />        
-        <h3>${currentAthlete.name}</h3>
-        <p>${currentAthlete.team}</p>
-        <button class="button_show_Atlethe" type="submit">
-        Ver Atletas
-          <img
-            src="img_proyecto/icono_siguiente.png"
-            alt="icono siguiente"
-            width="25px"
-            height="auto"
-          />
-        </div>`
-    )
-    .join("");
-};
-console.log("🚀 ~ showAthletes", showAthletes);
-
 const rhythmicGymnastics = getRhythmicGymnastics(data.athletes);
 console.log("🚀 ~ rhythmicGymnastics", rhythmicGymnastics);
 
+//modal
+
+const showModal = (athleteId) => {
+  const athlete = rhythmicGymnastics.filter(
+    (currentAthlete) =>
+      currentAthlete.name.toLowerCase().replace(/\s/g, "-") === athleteId
+  );
+  const modalContainer = document.createElement("div");
+  modalContainer.classList.add("modal");
+  const main = document.getElementsByTagName("main");
+  document.body.insertBefore(modalContainer, main);
+  modalContainer.innerHTML = `<div class="modal_title">
+      <h1>Atleta</h1>
+    </div>
+    <div class="modal_content">
+      <p>${athlete.name}</p>
+      <p>${athlete.gender}</p>
+      <p>${athlete.height}</p>
+      <p>${athlete.weight}</p>
+      <p>${athlete.sport}</p>
+      <p>${athlete.noc}</p>
+      <p>${athlete.age}</p>
+      <p>${athlete.medal}</p>
+      <p>${athlete.event}</p>
+    </div>`;
+  console.log(athlete);
+};
+
+const showAthletes = (rhythmicGymnastics) => {
+  return rhythmicGymnastics
+    .map((currentAthlete) => {
+      const athleteId = currentAthlete.name.toLowerCase().replace(/\s/g, "-");
+      return `<div class="athlete_Container">
+        <img class="imgAthlete" src=${currentAthlete.img} alt="atleta" />        
+        <h3>${currentAthlete.name}</h3>
+        <p>${currentAthlete.team}</p>
+        <button id="${athleteId}" class="button_show_Atlethe">
+        Ver Atletas
+          <img
+          src="img_proyecto/icono_siguiente.png"
+          alt="icono siguiente"
+          width="25px"
+          height="auto"
+          />
+        </button>
+    </div>`;
+    })
+    .join("");
+};
+
+console.log("🚀 ~ showAthletes", showAthletes);
+
 const athletesContainer = document.querySelector(".show_athletes");
 athletesContainer.innerHTML = showAthletes(rhythmicGymnastics);
+athletesContainer.addEventListener("click", (event) => {
+  if (event.target && event.target.tagName === "BUTTON") {
+    // console.log(event.target.attributes.id.nodeValue);
+    showModal(event.target.attributes.id.nodeValue);
+  }
+});
+
+//Filter
 
 // const uniqueArrayTeams = [
 //   ...new Set(rhythmicGymnastics.map((currentAthlete) => currentAthlete.team)), // el new, un unico seccion de team

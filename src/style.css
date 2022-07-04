@@ -259,3 +259,10 @@ footer {
   padding-top: 30px;
   margin: 1%;
 }
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2eae4;
+}

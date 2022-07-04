@@ -12,6 +12,12 @@ export const getRhythmicGymnastics = (data) => {
   );
 };
 
+// export const getModal = (data, selectButtonAthlete) => {
+//   return data.filter(
+//     (currentAthlete) => currentAthlete.name === selectButtonAthlete
+//   );
+// };
+
 export const filterTeam = (data, selectTeam) => {
   return data.filter((currentTeam) => currentTeam.team === selectTeam);
 };
